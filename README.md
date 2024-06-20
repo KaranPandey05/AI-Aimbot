@@ -1,6 +1,6 @@
 # AI-Aimbot
 
-This Python script implements a basic aimbot using MSS, OpenCV, PyTorch, and YOLOv5. The software captures the screen, detects specific entities (zombies and wither skeletons) in Minecraft, and auto-locks and attacks them. The aimbot identifies these entities based on pre-trained weights for the YOLOv5 model, ensuring accurate detection.
+This Python script implements a basic aimbot using MSS, OpenCV, PyTorch, and YOLOv5. The software captures the screen, detects specific entities (zombies and wither skeletons) in Minecraft, and auto-locks and attacks them. The aimbot identifies these entities based on custom trained weights for the YOLOv5 model, ensuring accurate detection.
 
 ## Key Functionalities
 
