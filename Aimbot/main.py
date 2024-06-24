@@ -52,7 +52,7 @@ with mss.mss() as sct:
                     # height = max height - min height
                     height = int(results_list[0][3] - results_list[0][1])
                     # Centering the AI's aim.
-                    # Multiplying the pposition by a certain factor to deal with any offsets cause by thr games. 
+                    # Multiplying the pposition by a certain factor to deal with any offsets cause by the games. 
                     # This factor need to be tweaked depending on the game.
                     x_position = (0.37 * ((x - (width/2)) - pyautogui.position()[0]))
                     y_position = (0.30 * ((y - (height/2)) - pyautogui.position()[1]))
